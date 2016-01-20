@@ -9,10 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var flipViewContainer:UIView!
+    @IBOutlet var flipView:CDFlipView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.flipViewContainer.layer.cornerRadius = self.flipViewContainer.bounds.width/2
+        
+        var imageSet:[UIImageView] = []
+        
+        for index in 1...5{
+            let image = UIImageView(image: UIImage(named: "\(index)"))
+            image.contentMode = .ScaleAspectFill
+            imageSet.append(image)
+        }
+        
+        flipView.layer.zPosition = 100
+        flipView.setUp(imageSet)
+        flipView.startAnimation()
+        
     }
 
     override func didReceiveMemoryWarning() {

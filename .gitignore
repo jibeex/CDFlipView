@@ -1,0 +1,13 @@
+*.DS_Store
+
+build/
+**/xcuserdata
+*.xcsettings
+Pods/
+
+
+/Podfile.lock
+
+/Pods
+
+/Build

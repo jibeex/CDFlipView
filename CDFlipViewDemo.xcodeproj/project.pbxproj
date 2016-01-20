@@ -12,6 +12,7 @@
 		60351DD41C4FECB600E13B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60351DD21C4FECB600E13B76 /* Main.storyboard */; };
 		60351DD61C4FECB600E13B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60351DD51C4FECB600E13B76 /* Assets.xcassets */; };
 		60351DD91C4FECB600E13B76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60351DD71C4FECB600E13B76 /* LaunchScreen.storyboard */; };
+		60351DE21C4FECFA00E13B76 /* CDFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60351DE11C4FECFA00E13B76 /* CDFlipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		60351DD51C4FECB600E13B76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60351DD81C4FECB600E13B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60351DDA1C4FECB600E13B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60351DE11C4FECFA00E13B76 /* CDFlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDFlipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		60351DC21C4FECB600E13B76 = {
 			isa = PBXGroup;
 			children = (
+				60351DE01C4FECFA00E13B76 /* CDFlipView */,
 				60351DCD1C4FECB600E13B76 /* CDFlipViewDemo */,
 				60351DCC1C4FECB600E13B76 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				60351DDA1C4FECB600E13B76 /* Info.plist */,
 			);
 			path = CDFlipViewDemo;
+			sourceTree = "<group>";
+		};
+		60351DE01C4FECFA00E13B76 /* CDFlipView */ = {
+			isa = PBXGroup;
+			children = (
+				60351DE11C4FECFA00E13B76 /* CDFlipView.swift */,
+			);
+			path = CDFlipView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60351DE21C4FECFA00E13B76 /* CDFlipView.swift in Sources */,
 				60351DD11C4FECB600E13B76 /* ViewController.swift in Sources */,
 				60351DCF1C4FECB600E13B76 /* AppDelegate.swift in Sources */,
 			);
