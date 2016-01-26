@@ -2,9 +2,7 @@
 //  FlipMultipleViews.swift
 //  The Report
 //
-//  Created by jibeex on 1/18/16.
-//  Copyright © 2016 Captain Dash. All rights reserved.
-//
+//  Created by jibeex on 1/18/16
 
 import UIKit
 
