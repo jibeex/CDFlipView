@@ -1,10 +1,3 @@
-//
-//  FlipMultipleViews.swift
-//  The Report
-//
-//  Created by jibeex on 1/18/16.
-//  Copyright © 2016 Captain Dash. All rights reserved.
-//
 
 import UIKit
 
@@ -62,7 +55,7 @@ class CDFlipView: UIView {
     
     var multipleLayerView:CDMultipleLayerView?
     var activated = false
-    var durationForOneTurnOver:Double = 0.7
+    var durationForOneTurnOver:Double = 0.5
     
     func setUp(views:[UIView]){
         
@@ -78,7 +71,7 @@ class CDFlipView: UIView {
     func startAnimation(){
         if !activated{
             activated = true
-            rotateToSideAtIndex(CGFloat(M_PI_2), index: 0, duration: durationForOneTurnOver/2, infinitely: true)
+            rotateToSideAtIndex(0, duration: durationForOneTurnOver/2, goingIn: false, delay: 0.1)
         }
     }
     
@@ -88,23 +81,40 @@ class CDFlipView: UIView {
         }
     }
     
-    private func rotateToSideAtIndex(radial:CGFloat, index:Int, duration:Double, infinitely:Bool){
+    private func rotateToSideAtIndex(index:Int, duration:Double, goingIn:Bool, delay:NSTimeInterval){
         
         self.multipleLayerView?.displayLayerAtIndex(index)
-        UIView.animateWithDuration(duration, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
-            self.layer.transform = CATransform3DRotate(self.layer.transform, radial, 0, 1, 0)
+        
+        if goingIn{
+            UIView.animateWithDuration(duration/2, delay: delay, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+                self.multipleLayerView?.alpha = 1
             }) { (complete) -> Void in
-                if infinitely{
-                    if self.activated{
-                        self.rotateToSideAtIndex(CGFloat(M_PI), index: index + 1, duration: self.durationForOneTurnOver, infinitely: true)
-                    }
-                    else{
-                        self.rotateToSideAtIndex(CGFloat(M_PI_2), index: 0, duration: self.durationForOneTurnOver/2, infinitely: false)
-
-                    }
+            }
+        }
+        else{
+            UIView.animateWithDuration(duration/2, delay: delay + duration/2, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+                self.multipleLayerView?.alpha = 0
+            }) { (complete) -> Void in
+            }
+        }
+        
+        UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+            self.layer.transform = CATransform3DRotate(self.layer.transform, CGFloat(M_PI_2), 0, 1, 0)
+            
+        }) { (complete) -> Void in
+            
+            if goingIn{
+                if self.activated{
+                    self.rotateToSideAtIndex(index, duration:duration, goingIn: !goingIn, delay: 0.05)
                 }
+                else{
+                    self.multipleLayerView?.displayLayerAtIndex(0)
+                }
+            }
+            else{
+                self.rotateToSideAtIndex(index + 1, duration:duration, goingIn: true, delay: 0)
                 
-                
+            }
         }
         
     }
