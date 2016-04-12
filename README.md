@@ -5,4 +5,25 @@ A view that takes a set of images, make transition from one to another by using 
 ### Demo
 ![Screencapture GIF](https://github.com/jibeex/CDFlipView/blob/master/demo.gif)
 
-https://appetize.io/app/w0df4gf2wcaxavadr6zjxf2h1m
+Live Demo: https://appetize.io/app/w0df4gf2wcaxavadr6zjxf2h1m
+
+
+### How to install
+
+Put the file `CDFlipView/CDFlipView.swift` into your project
+
+### How to use
+
+```swift
+var imageSet:[UIImageView] = [] // you can use image view or any other view
+for index in 1...5{
+  let image = UIImageView(image: UIImage(named: "\(index)"))
+  image.contentMode = .ScaleAspectFill
+  imageSet.append(image)
+}
+        
+flipView.layer.zPosition = 100
+flipView.setUp(imageSet)
+flipView.startAnimation()
+```
+
