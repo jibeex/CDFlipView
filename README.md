@@ -15,14 +15,17 @@ Put the file `CDFlipView/CDFlipView.swift` into your project
 ### How to use
 
 ```swift
-var imageSet:[UIImageView] = [] // you can use image view or any other view
+var imageSet:[UIImageView] = [] // use any object of type UIView
+
 for index in 1...5{
-  let image = UIImageView(image: UIImage(named: "\(index)"))
-  image.contentMode = .ScaleAspectFill
-  imageSet.append(image)
+let image = UIImageView(image: UIImage(named: "\(index)"))
+image.contentMode = .ScaleAspectFill
+imageSet.append(image)
 }
-        
+
 flipView.layer.zPosition = 100
+flipView.durationForOneTurnOver = 0.6
+flipView.stillTime = 0.1
 flipView.setUp(imageSet)
 flipView.startAnimation()
 ```
