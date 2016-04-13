@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         }
         
         flipView.layer.zPosition = 100
+        flipView.durationForOneTurnOver = 0.6
+        flipView.stillTime = 0.1
         flipView.setUp(imageSet)
         flipView.startAnimation()
         

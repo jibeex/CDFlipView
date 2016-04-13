@@ -53,9 +53,15 @@ class CDMultipleLayerView: UIView{
 
 class CDFlipView: UIView {
     
-    var multipleLayerView:CDMultipleLayerView?
-    var activated = false
+    private(set) var activated = false
+    private var multipleLayerView:CDMultipleLayerView?
+    
     var durationForOneTurnOver:Double = 0.5
+    
+    // The amount of time that the current layer stays still after
+    // it is full presented, after which it will continune
+    // to turn and change to the next layer
+    var stillTime:Double = 0.1
     
     func setUp(views:[UIView]){
         
@@ -71,7 +77,8 @@ class CDFlipView: UIView {
     func startAnimation(){
         if !activated{
             activated = true
-            rotateToSideAtIndex(0, duration: durationForOneTurnOver/2, goingIn: false, delay: 0.1)
+            // Need a small amount time (0.05s) for loading
+            rotateToSideAtIndex(0, duration: durationForOneTurnOver/2, goingIn: false, delay: stillTime + 0.05)
         }
     }
     
@@ -101,18 +108,22 @@ class CDFlipView: UIView {
         UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
             self.layer.transform = CATransform3DRotate(self.layer.transform, CGFloat(M_PI_2), 0, 1, 0)
             
-        }) { (complete) -> Void in
+        }) { [weak self](complete) -> Void in
+            
+            guard let _self = self else{
+                return
+            }
             
             if goingIn{
-                if self.activated{
-                    self.rotateToSideAtIndex(index, duration:duration, goingIn: !goingIn, delay: 0.05)
+                if _self.activated{
+                    _self.rotateToSideAtIndex(index, duration:duration, goingIn: !goingIn, delay: _self.stillTime)
                 }
                 else{
-                    self.multipleLayerView?.displayLayerAtIndex(0)
+                    _self.multipleLayerView?.displayLayerAtIndex(0)
                 }
             }
             else{
-                self.rotateToSideAtIndex(index + 1, duration:duration, goingIn: true, delay: 0)
+                _self.rotateToSideAtIndex(index + 1, duration:duration, goingIn: true, delay: 0)
                 
             }
         }
