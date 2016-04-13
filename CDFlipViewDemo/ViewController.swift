@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         self.flipViewContainer.layer.cornerRadius = self.flipViewContainer.bounds.width/2
         
-        var imageSet:[UIImageView] = []
+        var imageSet:[UIImageView] = [] // Use any object of type UIView
         
         for index in 1...5{
             let image = UIImageView(image: UIImage(named: "\(index)"))
