@@ -27,7 +27,7 @@ pod "CDFlipView"
 
 or
 
-Put the file `CDFlipView/CDFlipView.swift` into your project
+Put the file `CDFlipView/Classes/CDFlipView.swift` into your project
 
 ## Usage
 
