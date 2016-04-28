@@ -77,7 +77,7 @@ public class CDFlipView: UIView {
     public func startAnimation(){
         if !activated{
             activated = true
-            // Need a small amount time (0.05s) for loading
+            // Need a small amount of time (0.05s) for loading
             rotateToSideAtIndex(0, duration: durationForOneTurnOver/2, goingIn: false, delay: stillTime + 0.05)
         }
     }
