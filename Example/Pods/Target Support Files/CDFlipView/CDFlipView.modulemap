@@ -1,0 +1,6 @@
+framework module CDFlipView {
+  umbrella header "CDFlipView-umbrella.h"
+
+  export *
+  module * { export * }
+}

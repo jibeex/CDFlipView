@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CDFlipView_Example', :exclusive => true do
+  pod 'CDFlipView', :path => '../'
+end
+
+target 'CDFlipView_Tests', :exclusive => true do
+  pod 'CDFlipView', :path => '../'
+
+  
+end

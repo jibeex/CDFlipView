@@ -1,0 +1,6 @@
+framework module Pods_CDFlipView_Example {
+  umbrella header "Pods-CDFlipView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

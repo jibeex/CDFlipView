@@ -2,17 +2,36 @@
 
 A view that takes a set of images, make transition from one to another by using flipping effects.
 
-### Demo
+## Demo
 ![Screencapture GIF](https://github.com/jibeex/CDFlipView/blob/master/demo.gif)
 
 Live Demo: https://appetize.io/app/w0df4gf2wcaxavadr6zjxf2h1m
 
+[![CI Status](http://img.shields.io/travis/jibeex/CDFlipView.svg?style=flat)](https://travis-ci.org/jibeex/CDFlipView)
+[![Version](https://img.shields.io/cocoapods/v/CDFlipView.svg?style=flat)](http://cocoapods.org/pods/CDFlipView)
+[![License](https://img.shields.io/cocoapods/l/CDFlipView.svg?style=flat)](http://cocoapods.org/pods/CDFlipView)
+[![Platform](https://img.shields.io/cocoapods/p/CDFlipView.svg?style=flat)](http://cocoapods.org/pods/CDFlipView)
 
-### How to install
+## Install
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+CDFlipView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "CDFlipView"
+```
+
+or
 
 Put the file `CDFlipView/CDFlipView.swift` into your project
 
-### How to use
+## Usage
 
 ```swift
 var imageSet:[UIImageView] = [] // use any object of type UIView
@@ -30,3 +49,10 @@ flipView.setUp(imageSet)
 flipView.startAnimation()
 ```
 
+## Author
+
+jibeex, jibeex@gmail.com
+
+## License
+
+CDFlipView is available under the MIT license. See the LICENSE file for more info.

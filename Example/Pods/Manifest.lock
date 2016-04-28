@@ -1,0 +1,14 @@
+PODS:
+  - CDFlipView (0.1.0)
+
+DEPENDENCIES:
+  - CDFlipView (from `../`)
+
+EXTERNAL SOURCES:
+  CDFlipView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDFlipView: 719154b3ac4a69d45fadc8f2ef03c1a0c5c7344a
+
+COCOAPODS: 0.39.0
