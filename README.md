@@ -12,11 +12,9 @@ Live Demo: https://appetize.io/app/w0df4gf2wcaxavadr6zjxf2h1m
 [![License](https://img.shields.io/cocoapods/l/CDFlipView.svg?style=flat)](http://cocoapods.org/pods/CDFlipView)
 [![Platform](https://img.shields.io/cocoapods/p/CDFlipView.svg?style=flat)](http://cocoapods.org/pods/CDFlipView)
 
-## Install
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+Swift 2.0 +
 
 ## Installation
 
@@ -49,9 +47,13 @@ flipView.setUp(imageSet)
 flipView.startAnimation()
 ```
 
+## Example project
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Author
 
-jibeex, jibeex@gmail.com
+Jianbin LIN, jibeex@gmail.com
 
 ## License
 
