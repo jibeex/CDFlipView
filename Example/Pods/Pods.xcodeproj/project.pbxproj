@@ -1,1753 +1,802 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>02B92EC6E2C2FAE5E1556E4805CDD7E2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5545F85F5469574477F99CA6687E740B</string>
-				<string>DB27C9A07A1F55A5FF20B13D6F61C416</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>043F6B394AE8949A27F3192A5267C4C0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EF311C65588EEEF95DB1E0D925D3273A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>055867B11B69E362D6F265B0BF953A9E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>08CF5501A6FFBF061054C455DFAC798E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CDFlipView-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09E3952F97DB34F3EB3DFCE9988AE331</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F6781E6C4728A068D66D48A7E942B34B</string>
-				<string>651359CADBFAC5EC6B50DCBAB5FF35AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0BDCB408811D6D8AC734E9697D804CB9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_CDFlipView_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_CDFlipView_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>16C15056213A669CB1B3F78DC06B4BAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18D7A7D411316305D69881E5C63A22E9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>02B92EC6E2C2FAE5E1556E4805CDD7E2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FA68855BDAF26412867DCD8E46CEDE9E</string>
-				<string>A8EECF5DDDD316B35B558A04E411FF99</string>
-				<string>D8F6BFF765A8AEE5CED29A6E74A4751B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>939AA7768DE9BAE494508E5351D23BB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CDFlipView_Example</string>
-			<key>productName</key>
-			<string>Pods-CDFlipView_Example</string>
-			<key>productReference</key>
-			<string>3FFF427CC38875C8BF36A2CBF6E07955</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1940EA977D6C493801A39963B4A02B46</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9E16C1B70639F64DFBE603BB0328C879</string>
-				<string>B47086DC5BDE585FF103D3AE894A7695</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CDFlipView</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>196A98E8F4C10CE9F07497CE19E0878A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5B03CE4BF764398B09BC6B4E0EE016A9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Tests/Pods-CDFlipView_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_CDFlipView_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1B2CDABE8431A461ECF16CF9221628CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28F5D83D06E9C058553BA75CF4B29835</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9E4B5718B072DDCC1A5F16D52CEC387</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C949161AB0365E46317160FDFBDE0F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3C6B8072ED3731BA571EBD3C33ACC528</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3FFF427CC38875C8BF36A2CBF6E07955</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_CDFlipView_Example.framework</string>
-			<key>path</key>
-			<string>Pods_CDFlipView_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>43851C9F0D65F17D3BD8240C816A7C24</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D3755DA9A0965A56A64227727F81F89C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E278FE0330ADCE323ADF3FE0BFBD863B</string>
-				<string>6A1438F64C9B1D94F571E7978A775D44</string>
-				<string>055867B11B69E362D6F265B0BF953A9E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CDFlipView-CDFlipView</string>
-			<key>productName</key>
-			<string>CDFlipView-CDFlipView</string>
-			<key>productReference</key>
-			<string>989912044B005C35DDD451F2417C6775</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>4746F843A4777D69F1537E42FC0AFDF5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9431442E32903C12A0B5696912928C86</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>CDFlipView</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4B1E747D1EEF102AAD900E23C77C95FA</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6236D4166880A18DD8749EBE36A6CB98</string>
-			<key>remoteInfo</key>
-			<string>CDFlipView</string>
-		</dict>
-		<key>4B4706A30CD1C4C4FC695405E142CDD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CDFlipView.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CFD0F74DC7F999DCEA167CCEBC45CFC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CDFlipView.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DDF9D63AC3C5FA2D02ACA68E6FFC338</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5545F85F5469574477F99CA6687E740B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>16C15056213A669CB1B3F78DC06B4BAE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Example/Pods-CDFlipView_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_CDFlipView_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>582186C4D637A2345C2861057D6A8B10</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>43851C9F0D65F17D3BD8240C816A7C24</string>
-			<key>remoteInfo</key>
-			<string>CDFlipView-CDFlipView</string>
-		</dict>
-		<key>5B03CE4BF764398B09BC6B4E0EE016A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>602D3AB3FAC85E94C82C3BA62E78AB4E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>6236D4166880A18DD8749EBE36A6CB98</string>
-			<key>remoteInfo</key>
-			<string>CDFlipView</string>
-		</dict>
-		<key>6236D4166880A18DD8749EBE36A6CB98</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6F3211D32576E95B998D7D39BEB4A599</string>
-			<key>buildPhases</key>
-			<array>
-				<string>09E3952F97DB34F3EB3DFCE9988AE331</string>
-				<string>FA8671E93211A5CDE1DDAA7A7A0B8923</string>
-				<string>043F6B394AE8949A27F3192A5267C4C0</string>
-				<string>BC9427F2FFEA892ADB5984BC9ACE76DD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B802745959066E11F63777D7D6D5464C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CDFlipView</string>
-			<key>productName</key>
-			<string>CDFlipView</string>
-			<key>productReference</key>
-			<string>C19B2836342EFDAC540E5E775B2D3326</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>651359CADBFAC5EC6B50DCBAB5FF35AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B4706A30CD1C4C4FC695405E142CDD5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>65410ABCF6A285B9F17C491D8F692930</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>66C792C0A5B84F60889D4855EFA3F802</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE8A5651EF00DC7BE9463A9C56BE4A2A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6A1438F64C9B1D94F571E7978A775D44</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6B67D38C0C2451F71BFE7934A9D2EBA2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>196A98E8F4C10CE9F07497CE19E0878A</string>
-				<string>E6FCD6B318633702AD85B3F7CE7ABB47</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6BB918E1EE08FCE0C0621D01050C5DBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CBC9D007F2290D6A55B6B4A5167950F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E87B3981D48DA63DCA7C929733BC913</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F3211D32576E95B998D7D39BEB4A599</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EE711DEE3778058F285B3E6C85D65A62</string>
-				<string>F8344032C236BD2EA63C5AC9667DEF44</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>72F4B16964B6B5CABD262D7FED75F36F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73300A9C8356EBEDE51551BC2676872F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98107C5C65A3B9853B0F4A6939070E86</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>FB2EEED1CAF2A32DF94F1668545B2485</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>C7375618172D182EB71F10DD46C47485</string>
-				<string>CE95B7FE8828300142C4617D8DB892DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>845173920A52E8EE6C7A36A0EADBC823</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89B142FCE76AD1D025B3B2DA98FEB68A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4B4706A30CD1C4C4FC695405E142CDD5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BF0D1AA817523907F567A2B71DE2001</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CDFlipView</string>
-			<key>target</key>
-			<string>6236D4166880A18DD8749EBE36A6CB98</string>
-			<key>targetProxy</key>
-			<string>4B1E747D1EEF102AAD900E23C77C95FA</string>
-		</dict>
-		<key>907953B35E70A127989B5EE4B22389EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92BCD0A1A4BF01B525C31D3EFCAC1382</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DEE536A33623A61B1DDD68788B5FF0E1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>939AA7768DE9BAE494508E5351D23BB9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CDFlipView</string>
-			<key>target</key>
-			<string>6236D4166880A18DD8749EBE36A6CB98</string>
-			<key>targetProxy</key>
-			<string>602D3AB3FAC85E94C82C3BA62E78AB4E</string>
-		</dict>
-		<key>9431442E32903C12A0B5696912928C86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CDFlipView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9478F10631CE35FA6D8EA55B1EEE1445</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9431442E32903C12A0B5696912928C86</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>CDFlipView</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>94FFF507156D05EA448D158F55A67E7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98107C5C65A3B9853B0F4A6939070E86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>989912044B005C35DDD451F2417C6775</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CDFlipView.bundle</string>
-			<key>path</key>
-			<string>CDFlipView.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9E16C1B70639F64DFBE603BB0328C879</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>89B142FCE76AD1D025B3B2DA98FEB68A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CDFlipView</string>
-			<key>path</key>
-			<string>CDFlipView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F1DB6F2851ADA9AE7754F90536C7554</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6B67D38C0C2451F71BFE7934A9D2EBA2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B2FDE440B640CABF7483DA4522E50BF7</string>
-				<string>A14484E9EED7B0DD4290717AD88B9101</string>
-				<string>92BCD0A1A4BF01B525C31D3EFCAC1382</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8BF0D1AA817523907F567A2B71DE2001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-CDFlipView_Tests</string>
-			<key>productName</key>
-			<string>Pods-CDFlipView_Tests</string>
-			<key>productReference</key>
-			<string>0BDCB408811D6D8AC734E9697D804CB9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>A14484E9EED7B0DD4290717AD88B9101</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A2453714BB4579A1639510681DDF8C41</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A2453714BB4579A1639510681DDF8C41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8EECF5DDDD316B35B558A04E411FF99</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1B2CDABE8431A461ECF16CF9221628CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A9E4B5718B072DDCC1A5F16D52CEC387</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE8A5651EF00DC7BE9463A9C56BE4A2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2FDE440B640CABF7483DA4522E50BF7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>28F5D83D06E9C058553BA75CF4B29835</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B47086DC5BDE585FF103D3AE894A7695</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4CFD0F74DC7F999DCEA167CCEBC45CFC</string>
-				<string>9431442E32903C12A0B5696912928C86</string>
-				<string>BA845384BA1530A801933AD164389295</string>
-				<string>BF0741871DDA2B7905518CD31D113341</string>
-				<string>08CF5501A6FFBF061054C455DFAC798E</string>
-				<string>6CBC9D007F2290D6A55B6B4A5167950F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/CDFlipView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B802745959066E11F63777D7D6D5464C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>CDFlipView-CDFlipView</string>
-			<key>target</key>
-			<string>43851C9F0D65F17D3BD8240C816A7C24</string>
-			<key>targetProxy</key>
-			<string>582186C4D637A2345C2861057D6A8B10</string>
-		</dict>
-		<key>B8F3223D3339902ADB1EDE2914C857B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BA845384BA1530A801933AD164389295</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CDFlipView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC9427F2FFEA892ADB5984BC9ACE76DD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D4B86753AD88AB312700081F914402D5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF0741871DDA2B7905518CD31D113341</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CDFlipView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C19B2836342EFDAC540E5E775B2D3326</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CDFlipView.framework</string>
-			<key>path</key>
-			<string>CDFlipView.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C4D6888745465EB9C47DB2E2B5B8EA50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7375618172D182EB71F10DD46C47485</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>989912044B005C35DDD451F2417C6775</string>
-				<string>C19B2836342EFDAC540E5E775B2D3326</string>
-				<string>3FFF427CC38875C8BF36A2CBF6E07955</string>
-				<string>0BDCB408811D6D8AC734E9697D804CB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE439E7105C15E03AF4302C11AC30BA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE95B7FE8828300142C4617D8DB892DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D4ABC258291F828CBEC37D8DE4B7A286</string>
-				<string>EE91E92A9F007B9C716999944B8ECD4F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3755DA9A0965A56A64227727F81F89C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9478F10631CE35FA6D8EA55B1EEE1445</string>
-				<string>4746F843A4777D69F1537E42FC0AFDF5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>C7375618172D182EB71F10DD46C47485</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>6236D4166880A18DD8749EBE36A6CB98</string>
-				<string>43851C9F0D65F17D3BD8240C816A7C24</string>
-				<string>18D7A7D411316305D69881E5C63A22E9</string>
-				<string>9F1DB6F2851ADA9AE7754F90536C7554</string>
-			</array>
-		</dict>
-		<key>D4ABC258291F828CBEC37D8DE4B7A286</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC1B52DCD731F79B50AE84AB904F4896</string>
-				<string>72F4B16964B6B5CABD262D7FED75F36F</string>
-				<string>F4464C019CEBDDE68F911BC7800BE1CC</string>
-				<string>94FFF507156D05EA448D158F55A67E7C</string>
-				<string>98107C5C65A3B9853B0F4A6939070E86</string>
-				<string>6E87B3981D48DA63DCA7C929733BC913</string>
-				<string>3C6B8072ED3731BA571EBD3C33ACC528</string>
-				<string>AE8A5651EF00DC7BE9463A9C56BE4A2A</string>
-				<string>16C15056213A669CB1B3F78DC06B4BAE</string>
-				<string>EA5EB7C05E7337218D99C2D4ED77744F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-CDFlipView_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-CDFlipView_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D4B86753AD88AB312700081F914402D5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08CF5501A6FFBF061054C455DFAC798E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D8F6BFF765A8AEE5CED29A6E74A4751B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66C792C0A5B84F60889D4855EFA3F802</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DB27C9A07A1F55A5FF20B13D6F61C416</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EA5EB7C05E7337218D99C2D4ED77744F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Example/Pods-CDFlipView_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_CDFlipView_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DC1B52DCD731F79B50AE84AB904F4896</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEE536A33623A61B1DDD68788B5FF0E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8F3223D3339902ADB1EDE2914C857B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E278FE0330ADCE323ADF3FE0BFBD863B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E6FCD6B318633702AD85B3F7CE7ABB47</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4DDF9D63AC3C5FA2D02ACA68E6FFC338</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-CDFlipView_Tests/Pods-CDFlipView_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_CDFlipView_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA5EB7C05E7337218D99C2D4ED77744F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE711DEE3778058F285B3E6C85D65A62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9431442E32903C12A0B5696912928C86</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CDFlipView/CDFlipView-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/CDFlipView/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/CDFlipView/CDFlipView.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>CDFlipView</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EE91E92A9F007B9C716999944B8ECD4F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE439E7105C15E03AF4302C11AC30BA1</string>
-				<string>2C949161AB0365E46317160FDFBDE0F1</string>
-				<string>C4D6888745465EB9C47DB2E2B5B8EA50</string>
-				<string>6BB918E1EE08FCE0C0621D01050C5DBC</string>
-				<string>A9E4B5718B072DDCC1A5F16D52CEC387</string>
-				<string>907953B35E70A127989B5EE4B22389EE</string>
-				<string>845173920A52E8EE6C7A36A0EADBC823</string>
-				<string>B8F3223D3339902ADB1EDE2914C857B3</string>
-				<string>5B03CE4BF764398B09BC6B4E0EE016A9</string>
-				<string>4DDF9D63AC3C5FA2D02ACA68E6FFC338</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-CDFlipView_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-CDFlipView_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF311C65588EEEF95DB1E0D925D3273A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>989912044B005C35DDD451F2417C6775</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F4464C019CEBDDE68F911BC7800BE1CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-CDFlipView_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6781E6C4728A068D66D48A7E942B34B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA845384BA1530A801933AD164389295</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8344032C236BD2EA63C5AC9667DEF44</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9431442E32903C12A0B5696912928C86</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/CDFlipView/CDFlipView-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/CDFlipView/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/CDFlipView/CDFlipView.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>CDFlipView</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>FA68855BDAF26412867DCD8E46CEDE9E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>73300A9C8356EBEDE51551BC2676872F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FA8671E93211A5CDE1DDAA7A7A0B8923</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>65410ABCF6A285B9F17C491D8F692930</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FB2EEED1CAF2A32DF94F1668545B2485</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1940EA977D6C493801A39963B4A02B46</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2CDABE8431A461ECF16CF9221628CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		28F5D83D06E9C058553BA75CF4B29835 /* Pods-CDFlipView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E4B5718B072DDCC1A5F16D52CEC387 /* Pods-CDFlipView_Tests-dummy.m */; };
+		651359CADBFAC5EC6B50DCBAB5FF35AD /* CDFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4706A30CD1C4C4FC695405E142CDD5 /* CDFlipView.swift */; };
+		65410ABCF6A285B9F17C491D8F692930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		66C792C0A5B84F60889D4855EFA3F802 /* Pods-CDFlipView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8A5651EF00DC7BE9463A9C56BE4A2A /* Pods-CDFlipView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73300A9C8356EBEDE51551BC2676872F /* Pods-CDFlipView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98107C5C65A3B9853B0F4A6939070E86 /* Pods-CDFlipView_Example-dummy.m */; };
+		A2453714BB4579A1639510681DDF8C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D4B86753AD88AB312700081F914402D5 /* CDFlipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CF5501A6FFBF061054C455DFAC798E /* CDFlipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE536A33623A61B1DDD68788B5FF0E1 /* Pods-CDFlipView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F3223D3339902ADB1EDE2914C857B3 /* Pods-CDFlipView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF311C65588EEEF95DB1E0D925D3273A /* CDFlipView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 989912044B005C35DDD451F2417C6775 /* CDFlipView.bundle */; };
+		F6781E6C4728A068D66D48A7E942B34B /* CDFlipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA845384BA1530A801933AD164389295 /* CDFlipView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1E747D1EEF102AAD900E23C77C95FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6236D4166880A18DD8749EBE36A6CB98;
+			remoteInfo = CDFlipView;
+		};
+		582186C4D637A2345C2861057D6A8B10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43851C9F0D65F17D3BD8240C816A7C24;
+			remoteInfo = "CDFlipView-CDFlipView";
+		};
+		602D3AB3FAC85E94C82C3BA62E78AB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6236D4166880A18DD8749EBE36A6CB98;
+			remoteInfo = CDFlipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CF5501A6FFBF061054C455DFAC798E /* CDFlipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDFlipView-umbrella.h"; sourceTree = "<group>"; };
+		0BDCB408811D6D8AC734E9697D804CB9 /* Pods_CDFlipView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDFlipView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C15056213A669CB1B3F78DC06B4BAE /* Pods-CDFlipView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFlipView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C949161AB0365E46317160FDFBDE0F1 /* Pods-CDFlipView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CDFlipView_Tests.modulemap"; sourceTree = "<group>"; };
+		3C6B8072ED3731BA571EBD3C33ACC528 /* Pods-CDFlipView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDFlipView_Example-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FFF427CC38875C8BF36A2CBF6E07955 /* Pods_CDFlipView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDFlipView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4706A30CD1C4C4FC695405E142CDD5 /* CDFlipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CDFlipView.swift; sourceTree = "<group>"; };
+		4CFD0F74DC7F999DCEA167CCEBC45CFC /* CDFlipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CDFlipView.modulemap; sourceTree = "<group>"; };
+		4DDF9D63AC3C5FA2D02ACA68E6FFC338 /* Pods-CDFlipView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFlipView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5B03CE4BF764398B09BC6B4E0EE016A9 /* Pods-CDFlipView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFlipView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB918E1EE08FCE0C0621D01050C5DBC /* Pods-CDFlipView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFlipView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CBC9D007F2290D6A55B6B4A5167950F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E87B3981D48DA63DCA7C929733BC913 /* Pods-CDFlipView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDFlipView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		72F4B16964B6B5CABD262D7FED75F36F /* Pods-CDFlipView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CDFlipView_Example.modulemap"; sourceTree = "<group>"; };
+		845173920A52E8EE6C7A36A0EADBC823 /* Pods-CDFlipView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDFlipView_Tests-resources.sh"; sourceTree = "<group>"; };
+		907953B35E70A127989B5EE4B22389EE /* Pods-CDFlipView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDFlipView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9431442E32903C12A0B5696912928C86 /* CDFlipView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDFlipView.xcconfig; sourceTree = "<group>"; };
+		94FFF507156D05EA448D158F55A67E7C /* Pods-CDFlipView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFlipView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98107C5C65A3B9853B0F4A6939070E86 /* Pods-CDFlipView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDFlipView_Example-dummy.m"; sourceTree = "<group>"; };
+		989912044B005C35DDD451F2417C6775 /* CDFlipView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDFlipView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E4B5718B072DDCC1A5F16D52CEC387 /* Pods-CDFlipView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDFlipView_Tests-dummy.m"; sourceTree = "<group>"; };
+		AE8A5651EF00DC7BE9463A9C56BE4A2A /* Pods-CDFlipView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDFlipView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B8F3223D3339902ADB1EDE2914C857B3 /* Pods-CDFlipView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDFlipView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA845384BA1530A801933AD164389295 /* CDFlipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDFlipView-dummy.m"; sourceTree = "<group>"; };
+		BF0741871DDA2B7905518CD31D113341 /* CDFlipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDFlipView-prefix.pch"; sourceTree = "<group>"; };
+		C19B2836342EFDAC540E5E775B2D3326 /* CDFlipView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDFlipView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D6888745465EB9C47DB2E2B5B8EA50 /* Pods-CDFlipView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDFlipView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE439E7105C15E03AF4302C11AC30BA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1B52DCD731F79B50AE84AB904F4896 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5EB7C05E7337218D99C2D4ED77744F /* Pods-CDFlipView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFlipView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4464C019CEBDDE68F911BC7800BE1CC /* Pods-CDFlipView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDFlipView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A1438F64C9B1D94F571E7978A775D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14484E9EED7B0DD4290717AD88B9101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2453714BB4579A1639510681DDF8C41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EECF5DDDD316B35B558A04E411FF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2CDABE8431A461ECF16CF9221628CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8671E93211A5CDE1DDAA7A7A0B8923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65410ABCF6A285B9F17C491D8F692930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1940EA977D6C493801A39963B4A02B46 /* CDFlipView */ = {
+			isa = PBXGroup;
+			children = (
+				9E16C1B70639F64DFBE603BB0328C879 /* CDFlipView */,
+				B47086DC5BDE585FF103D3AE894A7695 /* Support Files */,
+			);
+			name = CDFlipView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				FB2EEED1CAF2A32DF94F1668545B2485 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C7375618172D182EB71F10DD46C47485 /* Products */,
+				CE95B7FE8828300142C4617D8DB892DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89B142FCE76AD1D025B3B2DA98FEB68A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B4706A30CD1C4C4FC695405E142CDD5 /* CDFlipView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E16C1B70639F64DFBE603BB0328C879 /* CDFlipView */ = {
+			isa = PBXGroup;
+			children = (
+				89B142FCE76AD1D025B3B2DA98FEB68A /* Classes */,
+			);
+			path = CDFlipView;
+			sourceTree = "<group>";
+		};
+		B47086DC5BDE585FF103D3AE894A7695 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD0F74DC7F999DCEA167CCEBC45CFC /* CDFlipView.modulemap */,
+				9431442E32903C12A0B5696912928C86 /* CDFlipView.xcconfig */,
+				BA845384BA1530A801933AD164389295 /* CDFlipView-dummy.m */,
+				BF0741871DDA2B7905518CD31D113341 /* CDFlipView-prefix.pch */,
+				08CF5501A6FFBF061054C455DFAC798E /* CDFlipView-umbrella.h */,
+				6CBC9D007F2290D6A55B6B4A5167950F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CDFlipView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7375618172D182EB71F10DD46C47485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989912044B005C35DDD451F2417C6775 /* CDFlipView.bundle */,
+				C19B2836342EFDAC540E5E775B2D3326 /* CDFlipView.framework */,
+				3FFF427CC38875C8BF36A2CBF6E07955 /* Pods_CDFlipView_Example.framework */,
+				0BDCB408811D6D8AC734E9697D804CB9 /* Pods_CDFlipView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE95B7FE8828300142C4617D8DB892DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4ABC258291F828CBEC37D8DE4B7A286 /* Pods-CDFlipView_Example */,
+				EE91E92A9F007B9C716999944B8ECD4F /* Pods-CDFlipView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4ABC258291F828CBEC37D8DE4B7A286 /* Pods-CDFlipView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B52DCD731F79B50AE84AB904F4896 /* Info.plist */,
+				72F4B16964B6B5CABD262D7FED75F36F /* Pods-CDFlipView_Example.modulemap */,
+				F4464C019CEBDDE68F911BC7800BE1CC /* Pods-CDFlipView_Example-acknowledgements.markdown */,
+				94FFF507156D05EA448D158F55A67E7C /* Pods-CDFlipView_Example-acknowledgements.plist */,
+				98107C5C65A3B9853B0F4A6939070E86 /* Pods-CDFlipView_Example-dummy.m */,
+				6E87B3981D48DA63DCA7C929733BC913 /* Pods-CDFlipView_Example-frameworks.sh */,
+				3C6B8072ED3731BA571EBD3C33ACC528 /* Pods-CDFlipView_Example-resources.sh */,
+				AE8A5651EF00DC7BE9463A9C56BE4A2A /* Pods-CDFlipView_Example-umbrella.h */,
+				16C15056213A669CB1B3F78DC06B4BAE /* Pods-CDFlipView_Example.debug.xcconfig */,
+				EA5EB7C05E7337218D99C2D4ED77744F /* Pods-CDFlipView_Example.release.xcconfig */,
+			);
+			name = "Pods-CDFlipView_Example";
+			path = "Target Support Files/Pods-CDFlipView_Example";
+			sourceTree = "<group>";
+		};
+		EE91E92A9F007B9C716999944B8ECD4F /* Pods-CDFlipView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE439E7105C15E03AF4302C11AC30BA1 /* Info.plist */,
+				2C949161AB0365E46317160FDFBDE0F1 /* Pods-CDFlipView_Tests.modulemap */,
+				C4D6888745465EB9C47DB2E2B5B8EA50 /* Pods-CDFlipView_Tests-acknowledgements.markdown */,
+				6BB918E1EE08FCE0C0621D01050C5DBC /* Pods-CDFlipView_Tests-acknowledgements.plist */,
+				A9E4B5718B072DDCC1A5F16D52CEC387 /* Pods-CDFlipView_Tests-dummy.m */,
+				907953B35E70A127989B5EE4B22389EE /* Pods-CDFlipView_Tests-frameworks.sh */,
+				845173920A52E8EE6C7A36A0EADBC823 /* Pods-CDFlipView_Tests-resources.sh */,
+				B8F3223D3339902ADB1EDE2914C857B3 /* Pods-CDFlipView_Tests-umbrella.h */,
+				5B03CE4BF764398B09BC6B4E0EE016A9 /* Pods-CDFlipView_Tests.debug.xcconfig */,
+				4DDF9D63AC3C5FA2D02ACA68E6FFC338 /* Pods-CDFlipView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CDFlipView_Tests";
+			path = "Target Support Files/Pods-CDFlipView_Tests";
+			sourceTree = "<group>";
+		};
+		FB2EEED1CAF2A32DF94F1668545B2485 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1940EA977D6C493801A39963B4A02B46 /* CDFlipView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92BCD0A1A4BF01B525C31D3EFCAC1382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE536A33623A61B1DDD68788B5FF0E1 /* Pods-CDFlipView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9427F2FFEA892ADB5984BC9ACE76DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B86753AD88AB312700081F914402D5 /* CDFlipView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F6BFF765A8AEE5CED29A6E74A4751B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C792C0A5B84F60889D4855EFA3F802 /* Pods-CDFlipView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18D7A7D411316305D69881E5C63A22E9 /* Pods-CDFlipView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B92EC6E2C2FAE5E1556E4805CDD7E2 /* Build configuration list for PBXNativeTarget "Pods-CDFlipView_Example" */;
+			buildPhases = (
+				FA68855BDAF26412867DCD8E46CEDE9E /* Sources */,
+				A8EECF5DDDD316B35B558A04E411FF99 /* Frameworks */,
+				D8F6BFF765A8AEE5CED29A6E74A4751B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939AA7768DE9BAE494508E5351D23BB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDFlipView_Example";
+			productName = "Pods-CDFlipView_Example";
+			productReference = 3FFF427CC38875C8BF36A2CBF6E07955 /* Pods_CDFlipView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43851C9F0D65F17D3BD8240C816A7C24 /* CDFlipView-CDFlipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3755DA9A0965A56A64227727F81F89C /* Build configuration list for PBXNativeTarget "CDFlipView-CDFlipView" */;
+			buildPhases = (
+				E278FE0330ADCE323ADF3FE0BFBD863B /* Sources */,
+				6A1438F64C9B1D94F571E7978A775D44 /* Frameworks */,
+				055867B11B69E362D6F265B0BF953A9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDFlipView-CDFlipView";
+			productName = "CDFlipView-CDFlipView";
+			productReference = 989912044B005C35DDD451F2417C6775 /* CDFlipView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6236D4166880A18DD8749EBE36A6CB98 /* CDFlipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3211D32576E95B998D7D39BEB4A599 /* Build configuration list for PBXNativeTarget "CDFlipView" */;
+			buildPhases = (
+				09E3952F97DB34F3EB3DFCE9988AE331 /* Sources */,
+				FA8671E93211A5CDE1DDAA7A7A0B8923 /* Frameworks */,
+				043F6B394AE8949A27F3192A5267C4C0 /* Resources */,
+				BC9427F2FFEA892ADB5984BC9ACE76DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B802745959066E11F63777D7D6D5464C /* PBXTargetDependency */,
+			);
+			name = CDFlipView;
+			productName = CDFlipView;
+			productReference = C19B2836342EFDAC540E5E775B2D3326 /* CDFlipView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F1DB6F2851ADA9AE7754F90536C7554 /* Pods-CDFlipView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B67D38C0C2451F71BFE7934A9D2EBA2 /* Build configuration list for PBXNativeTarget "Pods-CDFlipView_Tests" */;
+			buildPhases = (
+				B2FDE440B640CABF7483DA4522E50BF7 /* Sources */,
+				A14484E9EED7B0DD4290717AD88B9101 /* Frameworks */,
+				92BCD0A1A4BF01B525C31D3EFCAC1382 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF0D1AA817523907F567A2B71DE2001 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDFlipView_Tests";
+			productName = "Pods-CDFlipView_Tests";
+			productReference = 0BDCB408811D6D8AC734E9697D804CB9 /* Pods_CDFlipView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					18D7A7D411316305D69881E5C63A22E9 = {
+						LastSwiftMigration = 0800;
+					};
+					43851C9F0D65F17D3BD8240C816A7C24 = {
+						LastSwiftMigration = 0800;
+					};
+					6236D4166880A18DD8749EBE36A6CB98 = {
+						LastSwiftMigration = 0800;
+					};
+					9F1DB6F2851ADA9AE7754F90536C7554 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C7375618172D182EB71F10DD46C47485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6236D4166880A18DD8749EBE36A6CB98 /* CDFlipView */,
+				43851C9F0D65F17D3BD8240C816A7C24 /* CDFlipView-CDFlipView */,
+				18D7A7D411316305D69881E5C63A22E9 /* Pods-CDFlipView_Example */,
+				9F1DB6F2851ADA9AE7754F90536C7554 /* Pods-CDFlipView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043F6B394AE8949A27F3192A5267C4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF311C65588EEEF95DB1E0D925D3273A /* CDFlipView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		055867B11B69E362D6F265B0BF953A9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E3952F97DB34F3EB3DFCE9988AE331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6781E6C4728A068D66D48A7E942B34B /* CDFlipView-dummy.m in Sources */,
+				651359CADBFAC5EC6B50DCBAB5FF35AD /* CDFlipView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FDE440B640CABF7483DA4522E50BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F5D83D06E9C058553BA75CF4B29835 /* Pods-CDFlipView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E278FE0330ADCE323ADF3FE0BFBD863B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA68855BDAF26412867DCD8E46CEDE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73300A9C8356EBEDE51551BC2676872F /* Pods-CDFlipView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF0D1AA817523907F567A2B71DE2001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDFlipView;
+			target = 6236D4166880A18DD8749EBE36A6CB98 /* CDFlipView */;
+			targetProxy = 4B1E747D1EEF102AAD900E23C77C95FA /* PBXContainerItemProxy */;
+		};
+		939AA7768DE9BAE494508E5351D23BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDFlipView;
+			target = 6236D4166880A18DD8749EBE36A6CB98 /* CDFlipView */;
+			targetProxy = 602D3AB3FAC85E94C82C3BA62E78AB4E /* PBXContainerItemProxy */;
+		};
+		B802745959066E11F63777D7D6D5464C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CDFlipView-CDFlipView";
+			target = 43851C9F0D65F17D3BD8240C816A7C24 /* CDFlipView-CDFlipView */;
+			targetProxy = 582186C4D637A2345C2861057D6A8B10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196A98E8F4C10CE9F07497CE19E0878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B03CE4BF764398B09BC6B4E0EE016A9 /* Pods-CDFlipView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFlipView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFlipView_Tests/Pods-CDFlipView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CDFlipView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4746F843A4777D69F1537E42FC0AFDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9431442E32903C12A0B5696912928C86 /* CDFlipView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CDFlipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5545F85F5469574477F99CA6687E740B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C15056213A669CB1B3F78DC06B4BAE /* Pods-CDFlipView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFlipView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFlipView_Example/Pods-CDFlipView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CDFlipView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9478F10631CE35FA6D8EA55B1EEE1445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9431442E32903C12A0B5696912928C86 /* CDFlipView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CDFlipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DB27C9A07A1F55A5FF20B13D6F61C416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5EB7C05E7337218D99C2D4ED77744F /* Pods-CDFlipView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFlipView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFlipView_Example/Pods-CDFlipView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CDFlipView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6FCD6B318633702AD85B3F7CE7ABB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDF9D63AC3C5FA2D02ACA68E6FFC338 /* Pods-CDFlipView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFlipView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFlipView_Tests/Pods-CDFlipView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CDFlipView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE711DEE3778058F285B3E6C85D65A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9431442E32903C12A0B5696912928C86 /* CDFlipView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDFlipView/CDFlipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDFlipView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDFlipView/CDFlipView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CDFlipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8344032C236BD2EA63C5AC9667DEF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9431442E32903C12A0B5696912928C86 /* CDFlipView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDFlipView/CDFlipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDFlipView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDFlipView/CDFlipView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CDFlipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B92EC6E2C2FAE5E1556E4805CDD7E2 /* Build configuration list for PBXNativeTarget "Pods-CDFlipView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5545F85F5469574477F99CA6687E740B /* Debug */,
+				DB27C9A07A1F55A5FF20B13D6F61C416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B67D38C0C2451F71BFE7934A9D2EBA2 /* Build configuration list for PBXNativeTarget "Pods-CDFlipView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196A98E8F4C10CE9F07497CE19E0878A /* Debug */,
+				E6FCD6B318633702AD85B3F7CE7ABB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F3211D32576E95B998D7D39BEB4A599 /* Build configuration list for PBXNativeTarget "CDFlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE711DEE3778058F285B3E6C85D65A62 /* Debug */,
+				F8344032C236BD2EA63C5AC9667DEF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3755DA9A0965A56A64227727F81F89C /* Build configuration list for PBXNativeTarget "CDFlipView-CDFlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9478F10631CE35FA6D8EA55B1EEE1445 /* Debug */,
+				4746F843A4777D69F1537E42FC0AFDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -18,6 +18,7 @@ public class CDMultipleLayerView: UIView{
         for (_, oneView) in candidateViews.enumerate(){
             oneView.frame = self.bounds
             self.addSubview(oneView)
+            oneView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         }
         
         self.displayLayerAtIndex(0)
@@ -70,7 +71,7 @@ public class CDFlipView: UIView {
         }
         
         self.multipleLayerView = CDMultipleLayerView(frame: self.bounds, layers: views)
-        
+        self.multipleLayerView?.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
         self.addSubview(self.multipleLayerView!)
     }
     
