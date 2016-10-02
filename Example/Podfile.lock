@@ -1,5 +1,5 @@
 PODS:
-  - CDFlipView (0.1.0)
+  - CDFlipView (0.1.1)
 
 DEPENDENCIES:
   - CDFlipView (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CDFlipView: 719154b3ac4a69d45fadc8f2ef03c1a0c5c7344a
+  CDFlipView: 54dde98f370e4744f1da8b536b65769d6726ee80
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 58bf4d88ace479b724ede60f9592170f604efb03
+
+COCOAPODS: 1.0.1
