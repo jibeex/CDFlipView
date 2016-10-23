@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         for index in 1...5{
             let image = UIImageView(image: UIImage(named: "\(index)"))
-            image.contentMode = .ScaleAspectFill
+            image.contentMode = .scaleAspectFill
             imageSet.append(image)
         }
         

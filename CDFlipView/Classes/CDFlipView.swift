@@ -1,9 +1,9 @@
 
 import UIKit
 
-public class CDMultipleLayerView: UIView{
+open class CDMultipleLayerView: UIView{
     
-    private var candidateViews:[UIView]
+    fileprivate var candidateViews:[UIView]
     
     var layerCount:Int{
         get{
@@ -15,16 +15,16 @@ public class CDMultipleLayerView: UIView{
         self.candidateViews = layers
         super.init(frame: frame)
         
-        for (_, oneView) in candidateViews.enumerate(){
+        for (_, oneView) in candidateViews.enumerated(){
             oneView.frame = self.bounds
             self.addSubview(oneView)
-            oneView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
+            oneView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         }
         
         self.displayLayerAtIndex(0)
     }
     
-    func displayLayerAtIndex(index:Int){
+    func displayLayerAtIndex(_ index:Int){
         
         if layerCount == 0{
             return
@@ -36,13 +36,13 @@ public class CDMultipleLayerView: UIView{
         
         let roundedIndex = index % layerCount
         
-        for (index, view) in self.candidateViews.enumerate(){
+        for (index, view) in self.candidateViews.enumerated(){
             
             if roundedIndex == index{
-                view.hidden = false
+                view.isHidden = false
             }
             else{
-                view.hidden = true
+                view.isHidden = true
             }
         }
         
@@ -52,30 +52,30 @@ public class CDMultipleLayerView: UIView{
     }
 }
 
-public class CDFlipView: UIView {
+open class CDFlipView: UIView {
     
-    private(set) var activated = false
-    private var multipleLayerView:CDMultipleLayerView?
+    fileprivate(set) var activated = false
+    fileprivate var multipleLayerView:CDMultipleLayerView?
     
-    public var durationForOneTurnOver:Double = 0.5
+    open var durationForOneTurnOver:Double = 0.5
     
     // The amount of time that the current layer stays still after
     // it is full presented, after which it will continune
     // to turn and change to the next layer
-    public var stillTime:Double = 0.1
+    open var stillTime:Double = 0.1
     
-    public func setUp(views:[UIView]){
+    open func setUp(_ views:[UIView]){
         
         if multipleLayerView?.superview != nil{
             multipleLayerView?.removeFromSuperview()
         }
         
         self.multipleLayerView = CDMultipleLayerView(frame: self.bounds, layers: views)
-        self.multipleLayerView?.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
+        self.multipleLayerView?.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         self.addSubview(self.multipleLayerView!)
     }
     
-    public func startAnimation(){
+    open func startAnimation(){
         if !activated{
             activated = true
             // Need a small amount of time (0.05s) for loading
@@ -83,30 +83,30 @@ public class CDFlipView: UIView {
         }
     }
     
-    public func stopAnimation(){
+    open func stopAnimation(){
         if activated{
             activated = false
         }
     }
     
-    private func rotateToSideAtIndex(index:Int, duration:Double, goingIn:Bool, delay:NSTimeInterval){
+    fileprivate func rotateToSideAtIndex(_ index:Int, duration:Double, goingIn:Bool, delay:TimeInterval){
         
         self.multipleLayerView?.displayLayerAtIndex(index)
         
         if goingIn{
-            UIView.animateWithDuration(duration/2, delay: delay, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+            UIView.animate(withDuration: duration/2, delay: delay, options: UIViewAnimationOptions.curveLinear, animations: { () -> Void in
                 self.multipleLayerView?.alpha = 1
             }) { (complete) -> Void in
             }
         }
         else{
-            UIView.animateWithDuration(duration/2, delay: delay + duration/2, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+            UIView.animate(withDuration: duration/2, delay: delay + duration/2, options: UIViewAnimationOptions.curveLinear, animations: { () -> Void in
                 self.multipleLayerView?.alpha = 0
             }) { (complete) -> Void in
             }
         }
         
-        UIView.animateWithDuration(duration, delay: delay, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+        UIView.animate(withDuration: duration, delay: delay, options: UIViewAnimationOptions.curveLinear, animations: { () -> Void in
             self.layer.transform = CATransform3DRotate(self.layer.transform, CGFloat(M_PI_2), 0, 1, 0)
             
         }) { [weak self](complete) -> Void in

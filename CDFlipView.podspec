@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CDFlipView"
-  s.version          = "0.1.1"
+  s.version          = "1.0.0"
   s.summary          = "A view that takes a set of images, make transition from one to another by using flipping effects."
 
 # This description is used to generate tags and improve search results.
@@ -37,9 +37,9 @@ Put the file `CDFlipView/CDFlipView.swift` into your project
 var imageSet:[UIImageView] = [] // use any object of type UIView
 
 for index in 1...5{
-let image = UIImageView(image: UIImage(named: "\(index)"))
-image.contentMode = .ScaleAspectFill
-imageSet.append(image)
+    let image = UIImageView(image: UIImage(named: "\(index)"))
+    image.contentMode = .ScaleAspectFill
+    imageSet.append(image)
 }
 
 flipView.layer.zPosition = 100

@@ -35,9 +35,9 @@ Put the file `CDFlipView/Classes/CDFlipView.swift` into your project
 var imageSet:[UIImageView] = [] // use any object of type UIView
 
 for index in 1...5{
-let image = UIImageView(image: UIImage(named: "\(index)"))
-image.contentMode = .ScaleAspectFill
-imageSet.append(image)
+    let image = UIImageView(image: UIImage(named: "\(index)"))
+    image.contentMode = .ScaleAspectFill
+    imageSet.append(image)
 }
 
 flipView.layer.zPosition = 100
