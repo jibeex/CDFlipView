@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CDFlipView"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A view that takes a set of images, make transition from one to another by using flipping effects."
 
 # This description is used to generate tags and improve search results.
