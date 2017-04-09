@@ -107,7 +107,7 @@ open class CDFlipView: UIView {
         }
         
         UIView.animate(withDuration: duration, delay: delay, options: UIViewAnimationOptions.curveLinear, animations: { () -> Void in
-            self.layer.transform = CATransform3DRotate(self.layer.transform, CGFloat(M_PI_2), 0, 1, 0)
+            self.layer.transform = CATransform3DRotate(self.layer.transform, CGFloat.pi / 2, 0, 1, 0)
             
         }) { [weak self](complete) -> Void in
             
